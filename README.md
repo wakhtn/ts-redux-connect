@@ -18,8 +18,8 @@ const initialState = {
   age: 2
 }
 
-export stateType = typeof initialState;
-export connect = createConnect<stateType>();
+export type stateType = typeof initialState;
+export const connect = createConnect<stateType>();
 
 ```
 use `connect()` that was created in `store.ts`;
