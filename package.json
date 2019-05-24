@@ -1,6 +1,6 @@
 {
   "name": "ts-redux-connect",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "main": "index.js",
   "types": "index.d.ts",
   "repository": "https://github.com/wakhtn/ts-redux-connect.git",
