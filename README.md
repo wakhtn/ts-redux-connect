@@ -18,6 +18,14 @@ const initialState = {
   age: 2
 }
 
+// reducer
+const reducer = (state = initialState, action) => {
+  return state;
+}
+
+// store
+const store = createStore(reducer);
+
 export type stateType = typeof initialState;
 export const connect = createConnect<stateType>();
 
